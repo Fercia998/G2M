@@ -2,7 +2,7 @@
 margin: 0;
 padding: 0;
 text-decoration: none;
-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serifss
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serifss;
 box-sizing: border-box;
 }
 
@@ -11,6 +11,7 @@ section{
     background-repeat: no-repeat;
     height: 100vh;
     position: relative;
+    background-size: cover;
 
 }
 section .container{
@@ -46,6 +47,7 @@ section .container nav a:nth-child(6){
 .fefe{
     position: absolute;
     right: 2%;
+    
 }
 
 h1{
@@ -62,6 +64,7 @@ p{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
     font-weight: lighter;
+    font-size: 110%;
 
 }
 .btn{
@@ -71,6 +74,7 @@ p{
     color: white;
     background-color: rgb(233, 74, 127);
     margin-right: 100px;
+    border: none;
 
 
 }
@@ -107,6 +111,7 @@ a{
     margin-top: 100px;
     margin-left: 130px;
     width: 100%;
+    height: fit-content;
     
 }
 
@@ -117,11 +122,67 @@ h4{
 .gab{
 flex-direction: row;
 width: 500px;
-height: 700px;
 left: 139px;
 top: 1082px;
 }
 .MAMA.png{
     height: 500px;
     width: 300px;
+}
+.img1{
+    width: 500px;
+    height: 300px;
+}
+.img0{
+    width: 500px;
+    height: 450px;
+    
+}
+.yoh{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(86, 89, 122);;
+    
+}
+.han{
+    margin-top: 50px;
+}
+
+.pa{
+    margin-left: 50px;
+    display: flex;
+    
+}
+.mau{
+    margin-top: 70px;
+    margin-left:130px;
+    flex-direction: row;
+    display: flex;
+
+    
+}
+.rio{
+    position:absolute;
+    left: 500px;
+}
+.imgoa{
+    display: flex;
+    justify-content: space-around;
+}
+.nio{
+    border: 100px;
+    
+}
+.memo{
+   background-color: blue;
+   
+}
+.bae{
+
 }
